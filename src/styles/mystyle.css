@@ -1,0 +1,34 @@
+﻿
+.progressBar {
+    position: relative;
+    width: 300px;
+    height: 50px;
+    margin: 5px;
+    border: 1px solid #ccc !important;
+    color: #000 !important;
+    text-align: center;
+}
+
+.barStatus {
+    position: absolute;
+    width: 8%;
+    height: 100%;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+}
+
+.barStatusOver {
+    position: absolute;
+    width: 8%;
+    height: 100%;
+    background-color:darkred;
+    color: #cccccc;
+    font-size: 15px;
+    text-align: center;
+}
+
+body .baralign {
+    margin: 5px !important;
+}
